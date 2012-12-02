@@ -28,5 +28,10 @@
     <Compile Include="rna.py" />
     <Compile Include="__init__.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="output.txt" />
+    <Content Include="README.md" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
